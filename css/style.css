@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.col-6 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.col-3 {
+  display: flex;
+  width: 30%;
+}
+
+.col-7 {
+  display: flex;
+  width: 70%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.f-justify-content-space-between {
+  justify-content: space-between;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.f-align-items-center {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 0;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.btn-primary {
+  background-color: #001727;
+  color: #e4e4e4;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mtb-2 {
+  margin: 2em 0;
+}
+
+/* Start Header */
+header {
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.navigation ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.navigation ul li {
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+/* End Header */
+
+/* Featured Section */
+.featured-section-heading {
+  text-align: center;
+}
+/* End featured section */
+
+/* Delicious Section */
+.services-section,
+.delicous-section {
+  background: #f6cdb0;
+  padding: 10px 0;
+  margin: 80px 0;
+}
+
+.services-section .col-6 .content,
+.delicous-section .col-6 .content {
+  padding: 100px 250px 100px 100px;
+}
+/* End Delicious Section */
+
+/* OFFERS Section */
+.offers-section {
+  margin-bottom: 40px;
+}
+.offers-section .col-6 p {
+  margin-top: 14px;
+  text-align: center;
+  padding: 0 30px;
+}
+/* END OFFERS Section */
+
+/* Services Section */
+.services-section {
+  background: #f4e19d;
+}
+/* End Services Section */
+
+/* Testimonials Section */
+.testimomnial-section img {
+  width: 60%;
+}
+/* EndTestimonials Section */
+
+/* cta Section */
+.cta-section {
+  background: #f1b883;
+  text-align: center;
+  padding: 80px;
+}
+/* cta Section */
+
+/* footer Section */
+.footer-section {
+  margin: 100px 0;
+}
+.footer-section .left {
+  padding-right: 100px;
+}
+
+.footer-section .right {
+  padding-left: 100px;
+}
+/* end footer Section */
